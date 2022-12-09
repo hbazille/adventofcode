@@ -30,7 +30,7 @@ def test(listnumbers,k):
         i += 1 
         #print(elemdiv,elem1,elem2)
     ztmp = z%26
-    print(z)
+    #print(z)
     if criteria[k] == 0:
         return z,[9,8,7,6,5,4,3,2,1]
     elif (ztmp > criteriamax[k] or ztmp < criteriamin[k]):

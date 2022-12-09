@@ -76,8 +76,8 @@ def pp(g):
 t = 0
 b1, b2 = True, True
 while t < 1000 and (b1 or b2):
-    if t%10 == 0:
-        print(t)
+    #if t%10 == 0:
+    #    print(t)
     b1 = updateEast(grid)
     b2 = updateSouth(grid)
     t += 1

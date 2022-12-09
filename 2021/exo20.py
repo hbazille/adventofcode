@@ -78,4 +78,4 @@ for e in data:
             b,p,i = parse(e,i)
         l.append(p)
 l.sort()
-print(len(l),l[len(l)//2])
+print(l[len(l)//2])

@@ -90,5 +90,5 @@ for c in kept:
     else:
         r -= (c.xmax-c.xmin+1)*(c.ymax-c.ymin+1)*(c.zmax-c.zmin+1)
 
-print(len(kept))        
+#print(len(kept))        
 print(r)

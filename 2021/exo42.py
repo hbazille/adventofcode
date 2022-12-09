@@ -75,5 +75,5 @@ def iterative(scwpt,t):
 
 for i in range(19):
     scwp = iterative(scwp,i%2)
-print(win1,win2)
+print(win1)
 

@@ -76,7 +76,6 @@ def bingo(bingonumbers,grids,gridscheck):
                 checkvg = checkV(gridcheck,res[1])
                 checkhg = checkH(gridcheck,res[0])
                 if checkvg or checkhg:
-                    print("hello")
                     return sumUnmarked(grid,gridcheck)*int(b)
     return 0
 

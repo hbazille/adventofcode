@@ -150,5 +150,5 @@ def decodeoperator(s,i,nbbits,nbsubpackets):
 def decode(s):
     return(decodeoperator(s,0,len(s),float('inf')))
 
-print(decode(data))
+decode(data)
 print(sumversions)

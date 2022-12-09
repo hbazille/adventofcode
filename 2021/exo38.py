@@ -32,7 +32,7 @@ while completed < 29:
 nb = 0
 for s in scanners:
     nb += len(s)
-print(nb)
+#print(nb)
 def sq(x):
     return x*x
 def distance(u,v):
@@ -69,7 +69,7 @@ for i in range(len(distancesmap)):
     for j in range(i+1,len(distancesmap)):
         if computesim(distancesmap[i],distancesmap[j]) == 12:
             similars.append((i,j))
-print(len(similars))
+#print(len(similars))
 
 #similars = [(0, 6), (0, 14), (0, 24), (1, 2), (1, 15), (2, 22), (2, 24), (3, 15), (4, 11), (5, 13), (5, 16), (5, 26), (5, 28), (7, 26), (8, 18), (8, 21), (9, 12), (9, 13), (9, 26), (10, 26), (11, 18), (11, 21), (13, 18), (13, 24), (15, 22), (16, 17), (16, 18), (19, 25), (19, 27), (20, 28), (23, 28), (27, 28)]
 
@@ -124,14 +124,14 @@ for i in range(nbs):
     scannerPosition[i][i] = (0,0,0)
 
 dict = {}
-print(len(scanners))
+#print(len(scanners))
 for s in similars:
     n0 = s[0]
     n1 = s[1]
     s0 = distancesmap[s[0]]
     s1 = distancesmap[s[1]]
-    if n0 == 0 and n1 == 13:
-        print(len(scanners[0]),len(scanners[13]))
+    #if n0 == 0 and n1 == 13:
+    #    print(len(scanners[0]),len(scanners[13]))
     l = computeSimPoints(s0,s1)
     M = [[0,0,0],[0,0,0],[0,0,0]]
     Minv = [[0,0,0],[0,0,0],[0,0,0]]

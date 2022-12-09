@@ -58,5 +58,5 @@ def step(data):
 r = 0
 while not step(data):
     r += 1  
-pp(data)
+#pp(data)
 print(r)

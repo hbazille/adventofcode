@@ -35,4 +35,5 @@ while s1 < 1000 and s2 < 1000:
     t = 3-t
     turns += 1
 
-print(s1,s2,3*turns,s1*3*turns,s2*3*turns)
+#print(s1,s2,3*turns,s1*3*turns,s2*3*turns)
+print(s1*3*turns)

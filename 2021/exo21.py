@@ -52,5 +52,5 @@ def step(data):
                 data[i][j] = 0
 for i in range(100):
     step(data)  
-pp(data)
+#pp(data)
 print(flash)
