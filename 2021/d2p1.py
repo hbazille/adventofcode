@@ -1,6 +1,6 @@
 
 l = []
-file1 = open('data/exo3', 'r')
+file1 = open('data/day2', 'r')
 lines = file1.readlines()
 
 
@@ -13,17 +13,15 @@ i = 0
 n = len(l)
 h = 0
 d = 0
-aim = 0
 
 while(i<n):
     way = l[i][0]
     x = l[i][1]
     if way == "forward":
         h += x
-        d += x*aim
     elif way == "up":
-        aim -= x
+        d -= x
     else:
-        aim += x
+        d += x
     i += 1
 print(h*d)

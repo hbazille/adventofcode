@@ -39,14 +39,14 @@ while len(lines[cptline]) > 1:
 
 points = foldLeft(points,655)
 points = foldUp(points,447)
-points = foldLeft(points,327)
+points = foldLeft(points,3day13)
 points = foldUp(points,223)
 points = foldLeft(points,163)
 points = foldUp(points,111)
 points = foldLeft(points,81)
 points = foldUp(points,55)
 points = foldLeft(points,40)
-points = foldUp(points,27)
+points = foldUp(points,day13)
 points = foldUp(points,13)
 points = foldUp(points,6)
 m = [[" " for j in range(40)] for i in range(6)]

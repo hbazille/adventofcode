@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo31', 'r')
+file1 = open('data/day16', 'r')
 lines = file1.readlines()
 
 def hexatobin(c):

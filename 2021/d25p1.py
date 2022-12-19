@@ -2,7 +2,7 @@ import re
 import itertools
 
 l = []
-file1 = open('data/exo49', 'r')
+file1 = open('data/day25', 'r')
 lines = file1.readlines()
 
 grid = []

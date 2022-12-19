@@ -2,7 +2,7 @@ import re
 
 """
 l = []
-file1 = open('data/exo45', 'r')
+file1 = open('data/day23', 'r')
 lines = file1.readlines()
 """
 

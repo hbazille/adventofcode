@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo9', 'r')
+file1 = open('data/day5', 'r')
 lines = file1.readlines()
 
 grid = []

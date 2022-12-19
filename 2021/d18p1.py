@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo35', 'r')
+file1 = open('data/day18', 'r')
 lines = file1.readlines()
 
 class BinTree:

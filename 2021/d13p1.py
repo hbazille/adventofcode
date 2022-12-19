@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo25', 'r')
+file1 = open('data/day13', 'r')
 lines = file1.readlines()
 
 #lines = ["start-A\n","start-b\n","A-c\n","A-b\n","b-d\n","A-end\n","b-end\n",""]

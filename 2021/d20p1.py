@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo39', 'r')
+file1 = open('data/day20', 'r')
 lines = file1.readlines()
 
 code = []

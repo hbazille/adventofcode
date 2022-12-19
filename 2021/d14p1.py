@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo27', 'r')
+file1 = open('data/day14', 'r')
 lines = file1.readlines()
 
 chain = ""

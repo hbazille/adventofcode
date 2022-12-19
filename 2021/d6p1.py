@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo11', 'r')
+file1 = open('data/day6', 'r')
 lines = file1.readlines()
 
 line = lines[0].split(",")

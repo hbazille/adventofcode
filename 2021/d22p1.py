@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo43', 'r')
+file1 = open('data/day22', 'r')
 lines = file1.readlines()
 
 

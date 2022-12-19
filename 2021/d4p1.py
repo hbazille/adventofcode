@@ -1,7 +1,7 @@
 import re
 
 l = []
-file1 = open('data/exo7', 'r')
+file1 = open('data/day4', 'r')
 lines = file1.readlines()
 
 bingonumbers = []

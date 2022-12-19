@@ -1,6 +1,6 @@
 
 l = []
-file1 = open('data/exo5', 'r')
+file1 = open('data/day3', 'r')
 lines = file1.readlines()
 
 

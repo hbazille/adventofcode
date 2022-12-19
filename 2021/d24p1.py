@@ -2,7 +2,7 @@ import re
 import itertools
 
 l = []
-file1 = open('data/exo47', 'r')
+file1 = open('data/day24', 'r')
 lines = file1.readlines()
 
 

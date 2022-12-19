@@ -1,7 +1,5 @@
-import sys
-
 l = []
-file1 = open('data/exo1', 'r')
+file1 = open('data/day1', 'r')
 lines = file1.readlines()
 
 

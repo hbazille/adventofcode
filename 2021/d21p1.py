@@ -1,8 +1,4 @@
-import re
-
 l = []
-#file1 = open('data/exo39', 'r')
-#lines = file1.readlines()
 
 p1 = 4
 p2 = 10
